@@ -17,11 +17,15 @@
     <None Remove="Controllers\V1\" />
     <None Remove="Controllers\V2\" />
     <None Remove="Options\" />
+    <None Remove="Registrars\" />
+    <None Remove="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Controllers\V1\" />
     <Folder Include="Controllers\V2\" />
     <Folder Include="Options\" />
+    <Folder Include="Registrars\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 </Project>
