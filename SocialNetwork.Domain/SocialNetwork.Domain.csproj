@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Models\" />
+    <None Remove="Aggregates\" />
+    <None Remove="Aggregates\PostAggregate\" />
+    <None Remove="Aggregates\UserProfileAggregate\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Folder Include="Aggregates\" />
+    <Folder Include="Aggregates\PostAggregate\" />
+    <Folder Include="Aggregates\UserProfileAggregate\" />
   </ItemGroup>
 </Project>
