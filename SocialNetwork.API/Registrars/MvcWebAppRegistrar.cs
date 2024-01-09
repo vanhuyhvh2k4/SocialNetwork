@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SocialNetwork.API.Registrars
+﻿namespace SocialNetwork.API.Registrars
 {
 	public class MvcWebAppRegistrar : IWebApplicationRegistrar
 	{

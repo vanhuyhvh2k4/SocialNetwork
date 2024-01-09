@@ -1,7 +1,6 @@
-﻿using System;
-namespace SocialNetwork.API.Registrars
+﻿namespace SocialNetwork.API.Registrars
 {
-    public interface IWebApplicationRegistrar
+    public interface IWebApplicationRegistrar : IRegistrar
     {
         public void RegisterPinelineComponents(WebApplication app);
     }

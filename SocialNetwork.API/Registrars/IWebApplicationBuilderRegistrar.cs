@@ -1,7 +1,6 @@
-﻿using System;
-namespace SocialNetwork.API.Registrars
+﻿namespace SocialNetwork.API.Registrars
 {
-	public interface IWebApplicationBuilderRegistrar
+	public interface IWebApplicationBuilderRegistrar : IRegistrar
 	{
 		void RegisterServices(WebApplicationBuilder builder);
 	}

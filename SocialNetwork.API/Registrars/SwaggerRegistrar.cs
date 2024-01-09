@@ -1,5 +1,4 @@
-﻿using System;
-using SocialNetwork.API.Options;
+﻿using SocialNetwork.API.Options;
 
 namespace SocialNetwork.API.Registrars
 {
